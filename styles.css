@@ -32,7 +32,7 @@ ul {
 
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 70px;
 }
@@ -51,16 +51,48 @@ ul {
   font-size: 18px;
   color: #e5e7eb;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .hero-img {
-  width: 450px;
+  width: 350px;
   height: auto;
-  transform: skew(-20deg);
-  border-radius: 50%;
+  border-radius: 20px;
+  /* transform: skew(-20deg);
+  border-radius: 50%; */
 }
 
 .sign-up {
-  padding: 8px 30px;
+  padding: 8px 40px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.cravings {
+  background-color: #f9faf8;
+  text-align: center;
+  padding: 70px;
+}
+
+.cravings-header {
+  font-size: 36px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.cards {
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
 }
