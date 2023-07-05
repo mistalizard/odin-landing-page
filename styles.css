@@ -96,3 +96,9 @@ ul {
   height: 250px;
   border-radius: 20px;
 }
+
+.footer {
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px;
+}
