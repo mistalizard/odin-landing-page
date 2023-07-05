@@ -16,6 +16,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 150px;
 }
 
 .header-links {
@@ -27,4 +28,39 @@ ul {
   margin-left: 70px;
   color: #f9faf8;
   font-size: 24px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px;
+}
+
+.hero-main {
+  max-width: 550px;
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: 500;
+  color: #f9faf8;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hero-img {
+  width: 450px;
+  height: auto;
+  transform: skew(-20deg);
+  border-radius: 50%;
+}
+
+.sign-up {
+  padding: 8px 30px;
 }
